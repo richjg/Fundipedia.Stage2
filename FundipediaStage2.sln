@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2FAB3310-14F4-409B-96C7-B302C81A4121}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EE28FACE-6C16-4FCA-84FB-C93C8DD41E5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrdersApi", "src\OrdersApi\OrdersApi.csproj", "{A1575180-4839-4EE3-8BBE-ADE45D1C72F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrdersDomain", "src\OrdersDomain\OrdersDomain.csproj", "{63A6D801-1F9B-4BC6-BAD3-A65487CEFDD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrdersModel", "src\OrdersModel\OrdersModel.csproj", "{149F05F7-DEF4-48D1-8A9E-DC6F05CBC4C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{27B1DAE9-1E52-4FA2-B1B8-F39D2EEE0640}"
+	ProjectSection(SolutionItems) = preProject
+		Fundipedia - Technical Test - Stage 2.md = Fundipedia - Technical Test - Stage 2.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceTests", "tests\ServiceTests\ServiceTests.csproj", "{5C4021EC-FFF6-4824-AB1C-8C97937A88AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTests", "tests\ApiTests\ApiTests\ApiTests.csproj", "{C974CBFF-8390-4558-A244-7EF01E19A009}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1575180-4839-4EE3-8BBE-ADE45D1C72F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1575180-4839-4EE3-8BBE-ADE45D1C72F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1575180-4839-4EE3-8BBE-ADE45D1C72F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1575180-4839-4EE3-8BBE-ADE45D1C72F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A6D801-1F9B-4BC6-BAD3-A65487CEFDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A6D801-1F9B-4BC6-BAD3-A65487CEFDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A6D801-1F9B-4BC6-BAD3-A65487CEFDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A6D801-1F9B-4BC6-BAD3-A65487CEFDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149F05F7-DEF4-48D1-8A9E-DC6F05CBC4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149F05F7-DEF4-48D1-8A9E-DC6F05CBC4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149F05F7-DEF4-48D1-8A9E-DC6F05CBC4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149F05F7-DEF4-48D1-8A9E-DC6F05CBC4C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C4021EC-FFF6-4824-AB1C-8C97937A88AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C4021EC-FFF6-4824-AB1C-8C97937A88AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C4021EC-FFF6-4824-AB1C-8C97937A88AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C4021EC-FFF6-4824-AB1C-8C97937A88AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C974CBFF-8390-4558-A244-7EF01E19A009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C974CBFF-8390-4558-A244-7EF01E19A009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C974CBFF-8390-4558-A244-7EF01E19A009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C974CBFF-8390-4558-A244-7EF01E19A009}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1575180-4839-4EE3-8BBE-ADE45D1C72F7} = {2FAB3310-14F4-409B-96C7-B302C81A4121}
+		{63A6D801-1F9B-4BC6-BAD3-A65487CEFDD7} = {2FAB3310-14F4-409B-96C7-B302C81A4121}
+		{149F05F7-DEF4-48D1-8A9E-DC6F05CBC4C7} = {2FAB3310-14F4-409B-96C7-B302C81A4121}
+		{5C4021EC-FFF6-4824-AB1C-8C97937A88AE} = {EE28FACE-6C16-4FCA-84FB-C93C8DD41E5B}
+		{C974CBFF-8390-4558-A244-7EF01E19A009} = {EE28FACE-6C16-4FCA-84FB-C93C8DD41E5B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3E02C49-CBAD-4487-B4E0-951CEF356445}
+	EndGlobalSection
+EndGlobal
